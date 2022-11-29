@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AdventofCode2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AoC2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/createDay.sh" afterDir="false" />
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Fixup templating system">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AdventofCode2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AdventofCode2022.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createDay.sh" beforeDir="false" afterPath="$PROJECT_DIR$/createDay.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/template/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +32,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Project",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/template" />
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/template" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="MAIN_CLASS_NAME" value="day_01.MainKt" />
       <module name="AdventofCode2022" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,7 +69,32 @@
       <option name="presentableId" value="Default" />
       <updated>1669751225927</updated>
       <workItem from="1669751227470" duration="885000" />
+      <workItem from="1669752145309" duration="689000" />
+      <workItem from="1669763071788" duration="1190000" />
+      <workItem from="1669775953932" duration="3451000" />
     </task>
+    <task id="LOCAL-00001" summary="Setup repo for AoC">
+      <created>1669752432770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669752432770</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update templating system">
+      <created>1669764079334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669764079334</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixup templating system">
+      <created>1669775996663</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669775996663</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +110,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup repo for AoC" />
+    <MESSAGE value="Update templating system" />
+    <MESSAGE value="Fixup templating system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixup templating system" />
   </component>
 </project>
