@@ -19,7 +19,28 @@ fun part1(input: List<String>) {
 }
 
 fun part2(input: List<String>) {
-    print(input)
+        var current = 0
+    var max = 0
+    var second = 0
+    var third = 0
+    for (line in input) {
+        if (line == ""){
+            if (current > max) {
+                third = second
+                second = max
+                max = current
+            } else if (current > second) {
+                third = second
+                second = current
+            } else if (current > third) {
+                third = current
+            }
+            current = 0
+            continue
+        }
+        current += Integer.parseInt(line)
+    }
+    print(max + second + third)
 }
 
 fun main(){

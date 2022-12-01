@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Fixup templating system">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/createDay.sh" beforeDir="false" afterPath="$PROJECT_DIR$/createDay.sh" afterDir="false" />
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Day 1, part 1 complete">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_01/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_01/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <workItem from="1669850795213" duration="46000" />
       <workItem from="1669852661713" duration="12000" />
       <workItem from="1669852870028" duration="54000" />
-      <workItem from="1669868137987" duration="1768000" />
+      <workItem from="1669868137987" duration="1933000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -91,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669779482840</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 1, part 1 complete">
+      <created>1669871431733</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669871431733</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +117,7 @@
     <MESSAGE value="Setup repo for AoC" />
     <MESSAGE value="Update templating system" />
     <MESSAGE value="Fixup templating system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixup templating system" />
+    <MESSAGE value="Day 1, part 1 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 1, part 1 complete" />
   </component>
 </project>
