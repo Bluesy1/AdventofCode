@@ -6,41 +6,32 @@ fun part1(input: List<String>) {
     var current = 0
     var max = 0
     for (line in input) {
-        if (line == ""){
+        if (line.isEmpty()){
             if (current > max) {
                 max = current
             }
             current = 0
             continue
         }
-        current += Integer.parseInt(line)
+        current += line.toInt()
     }
-    print(max)
+    print("Most calories: $max")
 }
 
 fun part2(input: List<String>) {
-        var current = 0
-    var max = 0
-    var second = 0
-    var third = 0
+    val meals = mutableListOf(0,0,0)
+    var current = 0
     for (line in input) {
-        if (line == ""){
-            if (current > max) {
-                third = second
-                second = max
-                max = current
-            } else if (current > second) {
-                third = second
-                second = current
-            } else if (current > third) {
-                third = current
-            }
+        if (line.isEmpty()){
+            meals.add(current)
+            meals.sortDescending()
+            meals.removeLast()
             current = 0
             continue
         }
         current += Integer.parseInt(line)
     }
-    print(max + second + third)
+    print("The sum of top 3 elves: ${meals.sum()}")
 }
 
 fun main(){
