@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Update README.md for day 1">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_01/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_01/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_01/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,8 @@
       <workItem from="1669850795213" duration="46000" />
       <workItem from="1669852661713" duration="12000" />
       <workItem from="1669852870028" duration="54000" />
-      <workItem from="1669868137987" duration="2239000" />
+      <workItem from="1669868137987" duration="2410000" />
+      <workItem from="1669916297440" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -110,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669871654356</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update README.md for day 1">
+      <created>1669871780460</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669871780460</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
