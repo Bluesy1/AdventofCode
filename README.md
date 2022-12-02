@@ -5,3 +5,5 @@ using openjdk-19. In this repo I have all the questions and inputs included in t
 as my solutions for each day.
 
 [**Day 1**](/src/main/kotlin/day_01/) - [AdventOfCode](https://adventofcode.com/2022/day/1)
+
+[**Day 2**](/src/main/kotlin/day_02/) - [AdventOfCode](https://adventofcode.com/2022/day/2)
