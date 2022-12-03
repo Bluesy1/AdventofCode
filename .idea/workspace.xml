@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Update bash script to auto-download input file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Fix main README.md, createDay.sh" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +62,8 @@
       <workItem from="1669955446911" duration="50000" />
       <workItem from="1669955520148" duration="2694000" />
       <workItem from="1669992278168" duration="771000" />
-      <workItem from="1670042341828" duration="2343000" />
+      <workItem from="1670042341828" duration="2521000" />
+      <workItem from="1670045898802" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -144,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669993044421</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finish day 3">
+      <created>1670045266476</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670045266476</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fix main README.md, createDay.sh">
+      <created>1670045941418</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670045941418</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +183,8 @@
     <MESSAGE value="Cleanup day 1 code" />
     <MESSAGE value="Complete day 2" />
     <MESSAGE value="Update bash script to auto-download input file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update bash script to auto-download input file" />
+    <MESSAGE value="Finish day 3" />
+    <MESSAGE value="Fix main README.md, createDay.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix main README.md, createDay.sh" />
   </component>
 </project>
