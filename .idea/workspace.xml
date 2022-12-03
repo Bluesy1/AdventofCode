@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Complete day 2">
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Update bash script to auto-download input file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/createDay.sh" beforeDir="false" afterPath="$PROJECT_DIR$/createDay.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,8 @@
       <workItem from="1669916297440" duration="344000" />
       <workItem from="1669955446911" duration="50000" />
       <workItem from="1669955520148" duration="2694000" />
-      <workItem from="1669992278168" duration="654000" />
+      <workItem from="1669992278168" duration="771000" />
+      <workItem from="1670042341828" duration="2343000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669958450565</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update bash script to auto-download input file">
+      <created>1669993044421</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669993044421</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +170,7 @@
     <MESSAGE value="Update README.md for day 1" />
     <MESSAGE value="Cleanup day 1 code" />
     <MESSAGE value="Complete day 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete day 2" />
+    <MESSAGE value="Update bash script to auto-download input file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update bash script to auto-download input file" />
   </component>
 </project>
