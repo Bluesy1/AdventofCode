@@ -9,3 +9,6 @@ To use the bash script to auto create the files for the day, you will need to ha
 [**Day 1**](/src/main/kotlin/day_01/) - [AdventOfCode](https://adventofcode.com/2022/day/1)
 
 [**Day 2**](/src/main/kotlin/day_02/) - [AdventOfCode](https://adventofcode.com/2022/day/2)
+
+[**Day 3**](/src/main/kotlin/day_03/)
+ - [AdventOfCode](https://adventofcode.com/2022/day/3)
