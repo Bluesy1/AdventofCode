@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish Day 4">
-      <change afterPath="$PROJECT_DIR$/src/inputs/Day_04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day_04/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day_04/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish Day 4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +66,7 @@
       <workItem from="1670045898802" duration="49000" />
       <workItem from="1670047007412" duration="77000" />
       <workItem from="1670084542707" duration="626000" />
-      <workItem from="1670128730220" duration="2442000" />
+      <workItem from="1670128730220" duration="2515000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -172,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670047079627</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Finish Day 4">
+      <created>1670131354526</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670131354526</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
