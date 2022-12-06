@@ -3,41 +3,11 @@ package day_06
 import java.io.File
 
 fun part1(input: String) {
-    val queue = mutableListOf<Char>()
-    var count = 0
-    for (char in input) {
-        count++
-        if (queue.size < 4) {
-            queue.add(char)
-            continue
-        } else {
-            queue.add(char)
-            queue.removeAt(0)
-            if (queue.toSet().size == 4) {
-                print("The maker is at position $count")
-                break
-            }
-        }
-    }
+    print("The marker is at position ${input.windowed(4).indexOfFirst { it.toSet().size == 4 } + 4}")
 }
 
 fun part2(input: String) {
-    val queue = mutableListOf<Char>()
-    var count = 0
-    for (char in input) {
-        count++
-        if (queue.size < 14) {
-            queue.add(char)
-            continue
-        } else {
-            queue.add(char)
-            queue.removeAt(0)
-            if (queue.toSet().size == 14) {
-                print("The maker is at position $count")
-                break
-            }
-        }
-    }
+    print("The marker is at position ${input.windowed(14).indexOfFirst { it.toSet().size == 14 } + 14}")
 }
 
 fun main(){
