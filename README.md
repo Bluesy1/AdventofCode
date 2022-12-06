@@ -15,3 +15,5 @@ To use the bash script to auto create the files for the day, you will need to ha
 [**Day 4: Camp Cleanup**](/src/main/kotlin/day_04/) - [AdventOfCode](https://adventofcode.com/2022/day/4)
 
 [**Day 5: Supply Stacks**](/src/main/kotlin/day_05/) - [AdventOfCode](https://adventofcode.com/2022/day/5)
+
+[**Day 6: Tuning Trouble**](/src/main/kotlin/day_06/) - [AdventOfCode](https://adventofcode.com/2022/day/6)
