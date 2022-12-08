@@ -1,4 +1,4 @@
-package day_06
+package day_06_2022
 
 import java.io.File
 

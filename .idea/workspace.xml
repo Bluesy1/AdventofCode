@@ -4,10 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish Day 8&#10;&#10;Also working on misc. problems from previous years that I haven't completed">
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Update repo structure">
+      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_05.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/2016/inputs/Day_25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/kotlin/day_25/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2016/main/day_01/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2016/main/day_03/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2016/main/day_04/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2016/main/day_05/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2016/main/day_25/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AdventofCode2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AdventofCode2022.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2016/main/kotlin/day_06/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2016/main/day_06/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2016/main/kotlin/day_12/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2016/main/day_12/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2016/main/kotlin/day_23/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2016/main/day_23/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createDay.sh" beforeDir="false" afterPath="$PROJECT_DIR$/createDay.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/Day_01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/inputs/Day_01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/Day_02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/inputs/Day_02.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/Day_03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/inputs/Day_03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/Day_04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/inputs/Day_04.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/Day_05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/inputs/Day_05.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/Day_06.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/inputs/Day_06.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/Day_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/inputs/Day_07.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/Day_08.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/inputs/Day_08.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_01/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_01/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_01/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_02/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_02/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_02/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_02/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_03/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_03/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_03/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_03/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_04/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_04/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_04/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_05/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_05/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_05/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_06/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_06/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_06/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_07/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_07/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_07/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_07/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_08/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_08/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_08/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_08/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +56,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -30,22 +69,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/gavinkf/IdeaProjects/AdventofCode2022/2016/main/kotlin",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "discord-application",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gavinkf/IdeaProjects/AdventofCode2022/2016/main/kotlin&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2016/main/kotlin" />
@@ -53,6 +92,7 @@
       <recent name="$PROJECT_DIR$/2016/main/kotlin/day_06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/template" />
@@ -93,7 +133,11 @@
       <workItem from="1670381902233" duration="1292000" />
       <workItem from="1670385102339" duration="8020000" />
       <workItem from="1670393983301" duration="2502000" />
-      <workItem from="1670470233648" duration="10170000" />
+      <workItem from="1670470233648" duration="11261000" />
+      <workItem from="1670509444716" duration="1326000" />
+      <workItem from="1670513647346" duration="5981000" />
+      <workItem from="1670523410031" duration="112000" />
+      <workItem from="1670524594104" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -263,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670477877741</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Finish Day 8&#10;&#10;Also working on misc. problems from previous years that I haven't completed">
+      <created>1670480558695</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670480558695</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,26 +351,15 @@
     <MESSAGE value="Make Day 6 code much cleaner" />
     <MESSAGE value="Finish Day 7&#10;&#10;Also start working on misc. problems from previous years that I haven't completed" />
     <MESSAGE value="Finish Day 8&#10;&#10;Also working on misc. problems from previous years that I haven't completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Day 8&#10;&#10;Also working on misc. problems from previous years that I haven't completed" />
+    <MESSAGE value="Update repo structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update repo structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="6" />
-        </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.ClassCastException" package="java.lang" />
-          <option name="timeStamp" value="7" />
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="8" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
