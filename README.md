@@ -19,3 +19,5 @@ To use the bash script to auto create the files for the day, you will need to ha
 [**Day 6: Tuning Trouble**](/src/main/kotlin/day_06/) - [AdventOfCode](https://adventofcode.com/2022/day/6)
 
 [**Day 7: No Space Left On Device**](/src/main/kotlin/day_07/) - [AdventOfCode](https://adventofcode.com/2022/day/7)
+
+[**Day 8: Treetop Tree House**](/src/main/kotlin/day_08/) - [AdventOfCode](https://adventofcode.com/2022/day/8)
