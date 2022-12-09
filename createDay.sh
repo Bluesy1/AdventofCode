@@ -9,8 +9,8 @@ else
     DAY="$PROVIDED_DAY"
 fi
 
-mkdir -p ./src/main/kotlin/
-mkdir -p ./src/inputs
+mkdir -p ./2022/main
+mkdir -p ./2022/inputs
 
 touch ./2022/inputs/Day_"${DAY}".txt
 
@@ -22,4 +22,4 @@ printf "# Advent Of Code 2022 Day %s: %s\n\n## Part 1\nTBD\n\n---\n## Part 2\nTB
 
 printf "\n[**Day %s: %s**](main/day_%s/) - [AdventOfCode](https://adventofcode.com/2022/day/%s)\n" "$PROVIDED_DAY" "$TITLE" "$DAY" "$PROVIDED_DAY" >> ./2022/README.md
 
-curl --cookie "session=$AOC_COOKIE" https://adventofcode.com/2022/day/"$PROVIDED_DAY"/input > ./src/inputs/Day_"$DAY".txt
+curl --cookie "session=$AOC_COOKIE" https://adventofcode.com/2022/day/"$PROVIDED_DAY"/input > ./2022/inputs/Day_"${DAY}".txt
