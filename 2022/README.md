@@ -21,3 +21,5 @@ To use the bash script to auto create the files for the day, you will need to ha
 [**Day 7: No Space Left On Device**](main/day_07/) - [AdventOfCode](https://adventofcode.com/2022/day/7)
 
 [**Day 8: Treetop Tree House**](main/day_08/) - [AdventOfCode](https://adventofcode.com/2022/day/8)
+
+[**Day 9: Rope Bridge**](main/day_09/) - [AdventOfCode](https://adventofcode.com/2022/day/9)
