@@ -4,31 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Add more 2016 solutions">
-      <change afterPath="$PROJECT_DIR$/2015/inputs/Day_02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2015/main/day_02/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_07.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_08.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_09.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_20.txt" afterDir="false" />
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish day 9&#10;&#10;Also fix createDay.sh">
+      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_10.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/2016/inputs/Day_25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/DAY11.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/day_02/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/day_07/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/day_08/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/day_09/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/day_16/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/day_19/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/day_20/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2016/main/day_10/Bot.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2016/main/day_10/BotController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2016/main/day_10/Main.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/2016/main/day_25/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AdventofCode2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AdventofCode2022.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +24,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -132,7 +117,10 @@
       <workItem from="1670542349560" duration="4626000" />
       <workItem from="1670552067451" duration="1542000" />
       <workItem from="1670558623359" duration="528000" />
-      <workItem from="1670559355635" duration="5971000" />
+      <workItem from="1670559355635" duration="6411000" />
+      <workItem from="1670604341499" duration="1927000" />
+      <workItem from="1670626300505" duration="1210000" />
+      <workItem from="1670648381532" duration="1147000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -323,7 +311,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670525380429</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add more 2016 solutions">
+      <created>1670565989518</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1670565989518</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Finish day 9&#10;&#10;Also fix createDay.sh">
+      <created>1670566088676</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670566088676</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +367,8 @@
     <MESSAGE value="Finish Day 8&#10;&#10;Also working on misc. problems from previous years that I haven't completed" />
     <MESSAGE value="Update repo structure" />
     <MESSAGE value="Add more 2016 solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more 2016 solutions" />
+    <MESSAGE value="Finish day 9&#10;&#10;Also fix createDay.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish day 9&#10;&#10;Also fix createDay.sh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

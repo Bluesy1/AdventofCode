@@ -11,7 +11,7 @@ fun part2(input: List<String>) {
 }
 
 fun main(){
-    val inputFile = File("src/inputs/input.txt")
+    val inputFile = File("2022/inputs/input.txt")
     print("\n----- Part 1 -----\n")
     part1(inputFile.readLines())
     print("\n----- Part 2 -----\n")
