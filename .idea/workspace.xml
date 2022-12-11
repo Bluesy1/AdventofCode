@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish day 9&#10;&#10;Also fix createDay.sh">
-      <change afterPath="$PROJECT_DIR$/2016/inputs/Day_10.txt" afterDir="false" />
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish day 10&#10;&#10;Also fix template Main.kt">
       <change afterPath="$PROJECT_DIR$/2016/inputs/Day_25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/day_10/Bot.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/day_10/BotController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/main/day_10/Main.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/2016/main/day_25/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/main/day_11/Monkey.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/template/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +118,8 @@
       <workItem from="1670559355635" duration="6411000" />
       <workItem from="1670604341499" duration="1927000" />
       <workItem from="1670626300505" duration="1210000" />
-      <workItem from="1670648381532" duration="1147000" />
+      <workItem from="1670648381532" duration="1742000" />
+      <workItem from="1670734566269" duration="4223000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -325,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670566088676</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Finish day 10&#10;&#10;Also fix template Main.kt">
+      <created>1670650887236</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1670650887236</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +374,8 @@
     <MESSAGE value="Update repo structure" />
     <MESSAGE value="Add more 2016 solutions" />
     <MESSAGE value="Finish day 9&#10;&#10;Also fix createDay.sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish day 9&#10;&#10;Also fix createDay.sh" />
+    <MESSAGE value="Finish day 10&#10;&#10;Also fix template Main.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish day 10&#10;&#10;Also fix template Main.kt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -376,6 +383,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="8" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="11" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
