@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish day 10&#10;&#10;Also fix template Main.kt">
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish day 11">
       <change afterPath="$PROJECT_DIR$/2016/inputs/Day_25.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/2016/main/day_25/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/main/day_11/Monkey.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/main/day_12/Node.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/template/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +19,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -119,7 +119,8 @@
       <workItem from="1670604341499" duration="1927000" />
       <workItem from="1670626300505" duration="1210000" />
       <workItem from="1670648381532" duration="1742000" />
-      <workItem from="1670734566269" duration="4223000" />
+      <workItem from="1670734566269" duration="4539000" />
+      <workItem from="1670819058965" duration="5177000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -331,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670650887236</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Finish day 11">
+      <created>1670739498870</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1670739498870</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +383,8 @@
     <MESSAGE value="Add more 2016 solutions" />
     <MESSAGE value="Finish day 9&#10;&#10;Also fix createDay.sh" />
     <MESSAGE value="Finish day 10&#10;&#10;Also fix template Main.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish day 10&#10;&#10;Also fix template Main.kt" />
+    <MESSAGE value="Finish day 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish day 11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -387,6 +396,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="11" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="12" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
