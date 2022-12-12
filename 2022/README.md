@@ -27,3 +27,5 @@ To use the bash script to auto create the files for the day, you will need to ha
 [**Day 10: Cathode-Ray Tube**](main/day_10/) - [AdventOfCode](https://adventofcode.com/2022/day/10)
 
 [**Day 11: Monkey in the Middle**](main/day_11/) - [AdventOfCode](https://adventofcode.com/2022/day/11)
+
+[**Day 12: Hill Climbing Algorithm**](main/day_12/) - [AdventOfCode](https://adventofcode.com/2022/day/12)
