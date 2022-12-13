@@ -29,3 +29,5 @@ To use the bash script to auto create the files for the day, you will need to ha
 [**Day 11: Monkey in the Middle**](main/day_11/) - [AdventOfCode](https://adventofcode.com/2022/day/11)
 
 [**Day 12: Hill Climbing Algorithm**](main/day_12/) - [AdventOfCode](https://adventofcode.com/2022/day/12)
+
+[**Day 13: Distress Signal**](main/day_13/) - [AdventOfCode](https://adventofcode.com/2022/day/13)
