@@ -15,7 +15,7 @@ fun Pair<Int, Int>.directNeighbors(): MutableList<Pair<Int, Int>> {
     }
     return list
 }
-fun part1(input: String): Unit {
+fun part1(input: String) {
         val heights = mutableMapOf<Pair<Int, Int>?, Int>()
         val lines = input.split("\n".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
         var start: Pair<Int, Int>? = null
@@ -23,7 +23,7 @@ fun part1(input: String): Unit {
         //go over input, populating heights and noting start and end
         for (y in lines.indices) {
             val line = lines[y]
-            for (x in 0 until line.length) {
+            for (x in line.indices) {
                 if (line[x] == 'S') start = x to y
                 else if (line[x] == 'E') end = x to y
                 else heights[x to y] = line[x].code
@@ -65,26 +65,26 @@ fun pathfinder(start: Pair<Int, Int>, end: Pair<Int, Int>, heights: MutableMap<P
         return Int.MAX_VALUE
     }
 
-fun part2(input: String): Unit {
+fun part2(input: String) {
     val heights = mutableMapOf<Pair<Int, Int>?, Int>()
     val lines = input.split("\n")
-    var start: Pair<Int, Int>? = null
-    var end: Pair<Int, Int>? = null
+    lateinit var start: Pair<Int, Int>
+    lateinit var end: Pair<Int, Int>
     for (y in lines.indices) {
         val line = lines[y]
-        for (x in 0 until line.length) {
+        for (x in line.indices) {
             if (line[x] == 'S') start = x to y
             else if (line[x] == 'E') end = x to y
-            else heights.put(x to y, line[x].code)
+            else heights[x to y] = line[x].code
         }
     }
-    heights.put(start, 'a'.code - 1)
-    heights.put(end, 'z'.code + 1)
+    heights[start] = 'a'.code - 1
+    heights[end] = 'z'.code + 1
     //now, go over all possible locations - if location is an 'a',
     // the shortest path is minimum of existing shortest and fastest path from cur to end
     var shortest = Int.MAX_VALUE
     for (c in heights.keys) {
-        if (heights.get(c) == 'a'.code) shortest = Math.min(shortest, pathfinder(c!!, end!!, heights))
+        if (heights[c] == 'a'.code) shortest = shortest.coerceAtMost(pathfinder(c!!, end, heights))
     }
     print("The shortest path contains $shortest moves")
 }
