@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Cleanup 2022 day 12">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jetbrains_kotlinx_serialization_json_jvm.xml" afterDir="false" />
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish day 13">
       <change afterPath="$PROJECT_DIR$/2016/inputs/Day_25.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/2016/main/day_25/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/main/day_13/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AdventofCode2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AdventofCode2022.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/inputs/Day_12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/inputs/Day_12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/main/day_12/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_12/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,32 +37,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/gavinkf/IdeaProjects/AdventofCode2022/2016/main/day_08",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "discord-application",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gavinkf/IdeaProjects/AdventofCode2022/2016/main/day_08&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "kotlin",
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;kotlin&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2016/main/day_08" />
@@ -130,7 +128,10 @@
       <workItem from="1670648381532" duration="1742000" />
       <workItem from="1670734566269" duration="4539000" />
       <workItem from="1670819058965" duration="5386000" />
-      <workItem from="1670906556789" duration="6232000" />
+      <workItem from="1670906556789" duration="6557000" />
+      <workItem from="1670970912404" duration="112000" />
+      <workItem from="1670972767235" duration="251000" />
+      <workItem from="1670981695885" duration="559000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -363,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670907078086</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Finish day 13">
+      <created>1670913096923</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1670913096924</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update templating system" />
     <MESSAGE value="Fixup templating system" />
     <MESSAGE value="Day 1, part 1 complete" />
     <MESSAGE value="Day 1, part 2 complete" />
@@ -409,7 +416,8 @@
     <MESSAGE value="Finish day 11" />
     <MESSAGE value="Finish day 12" />
     <MESSAGE value="Cleanup 2022 day 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup 2022 day 12" />
+    <MESSAGE value="Finish day 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish day 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

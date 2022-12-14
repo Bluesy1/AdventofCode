@@ -29,9 +29,8 @@ fun part1(input: String) {
                 else heights[x to y] = line[x].code
             }
         }
-        //start is  one lower than lowest, end is one higher than highest
-        heights[start] = 'a'.code - 1
-        heights[end] = 'z'.code + 1
+        heights[start] = 'a'.code
+        heights[end] = 'z'.code
         print("The shortest path contains ${pathfinder(start!!, end!!, heights)} moves")
 }
 
@@ -78,8 +77,8 @@ fun part2(input: String) {
             else heights[x to y] = line[x].code
         }
     }
-    heights[start] = 'a'.code - 1
-    heights[end] = 'z'.code + 1
+    heights[start] = 'a'.code
+    heights[end] = 'z'.code
     //now, go over all possible locations - if location is an 'a',
     // the shortest path is minimum of existing shortest and fastest path from cur to end
     var shortest = Int.MAX_VALUE
