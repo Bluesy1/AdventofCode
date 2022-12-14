@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish day 13">
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Fix day 12 solution to work properly based on problem parameters">
       <change afterPath="$PROJECT_DIR$/2016/inputs/Day_25.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/2016/main/day_25/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/inputs/Day_12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/inputs/Day_12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/main/day_12/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/main/day_12/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +130,8 @@
       <workItem from="1670906556789" duration="6557000" />
       <workItem from="1670970912404" duration="112000" />
       <workItem from="1670972767235" duration="251000" />
-      <workItem from="1670981695885" duration="559000" />
+      <workItem from="1670981695885" duration="1224000" />
+      <workItem from="1670993890553" duration="2423000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -371,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670913096924</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Fix day 12 solution to work properly based on problem parameters">
+      <created>1670982315427</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1670982315427</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixup templating system" />
     <MESSAGE value="Day 1, part 1 complete" />
     <MESSAGE value="Day 1, part 2 complete" />
     <MESSAGE value="Update README.md for day 1" />
@@ -417,7 +423,8 @@
     <MESSAGE value="Finish day 12" />
     <MESSAGE value="Cleanup 2022 day 12" />
     <MESSAGE value="Finish day 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish day 13" />
+    <MESSAGE value="Fix day 12 solution to work properly based on problem parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix day 12 solution to work properly based on problem parameters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
