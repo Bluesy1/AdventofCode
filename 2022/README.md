@@ -35,3 +35,5 @@ To use the bash script to auto create the files for the day, you will need to ha
 [**Day 14: Regolith Reservoir**](main/day_14/) - [AdventOfCode](https://adventofcode.com/2022/day/14)
 
 [**Day 15: Beacon Exclusion Zone**](main/day_15/) - [AdventOfCode](https://adventofcode.com/2022/day/15)
+
+[**Day 16: Proboscidea Volcanium**](main/day_16/) - [AdventOfCode](https://adventofcode.com/2022/day/16)

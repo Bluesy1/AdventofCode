@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish day 14">
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish day 15">
       <change afterPath="$PROJECT_DIR$/2016/inputs/Day_25.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/2016/main/day_25/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/main/day_16/pain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/README.md" afterDir="false" />
     </list>
@@ -71,6 +72,7 @@
       <recent name="$PROJECT_DIR$/2016/main/kotlin/day_06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2022/main/day_16" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$" />
@@ -134,6 +136,11 @@
       <workItem from="1670993890553" duration="2719000" />
       <workItem from="1671084203770" duration="3983000" />
       <workItem from="1671122799359" duration="52000" />
+      <workItem from="1671130423901" duration="44000" />
+      <workItem from="1671165645225" duration="4544000" />
+      <workItem from="1671172024950" duration="681000" />
+      <workItem from="1671172975691" duration="748000" />
+      <workItem from="1671200633709" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -387,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670996568723</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Finish day 15">
+      <created>1671130462839</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1671130462839</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +422,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Day 1, part 2 complete" />
     <MESSAGE value="Update README.md for day 1" />
     <MESSAGE value="Cleanup day 1 code" />
     <MESSAGE value="Complete day 2" />
@@ -433,7 +446,8 @@
     <MESSAGE value="Finish day 13" />
     <MESSAGE value="Fix day 12 solution to work properly based on problem parameters" />
     <MESSAGE value="Finish day 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish day 14" />
+    <MESSAGE value="Finish day 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish day 15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
