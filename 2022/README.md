@@ -39,3 +39,5 @@ To use the bash script to auto create the files for the day, you will need to ha
 [**Day 16: Proboscidea Volcanium**](main/day_16/) - [AdventOfCode](https://adventofcode.com/2022/day/16)
 
 [**Day 17: Pyroclastic Flow**](main/day_17/) - [AdventOfCode](https://adventofcode.com/2022/day/17)
+
+[**Day 18: Boiling Boulders**](main/day_18/) - [AdventOfCode](https://adventofcode.com/2022/day/18)
