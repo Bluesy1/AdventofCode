@@ -31,8 +31,7 @@ fun part1(input: List<String>) {
         scanned.add(cube)
     }
     print("The surface area is $size")
-}// 6616 wrong
-// 12600 wrong
+}
 
 fun part2(input: List<String>) {
     val map = input.map {
@@ -78,7 +77,7 @@ fun part2(input: List<String>) {
     }
     print("The exterior surface area is $size")
 }
-// 2400 wrong
+
 fun main(){
     val inputFile = File("2022/inputs/Day_18.txt")
     print("\n----- Part 1 -----\n")
