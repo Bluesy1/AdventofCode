@@ -45,3 +45,5 @@ To use the bash script to auto create the files for the day, you will need to ha
 [**Day 19: Not Enough Minerals**](main/day_19/) - [AdventOfCode](https://adventofcode.com/2022/day/19)
 
 [**Day 20: Grove Positioning System**](main/day_20/) - [AdventOfCode](https://adventofcode.com/2022/day/20)
+
+[**Day 21: Monkey Math**](main/day_21/) - [AdventOfCode](https://adventofcode.com/2022/day/21)
