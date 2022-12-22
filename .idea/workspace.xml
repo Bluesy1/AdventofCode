@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish day 20">
+    <list default="true" id="330bae5c-25fe-445e-a8f5-061d2d4a39bf" name="Changes" comment="Finish day 21">
       <change afterPath="$PROJECT_DIR$/2016/inputs/Day_25.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/2016/main/day_25/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/main/day_21/bleh.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2022/README.md" afterDir="false" />
     </list>
@@ -149,7 +148,9 @@
       <workItem from="1671500413339" duration="1000000" />
       <workItem from="1671512142631" duration="3535000" />
       <workItem from="1671597727169" duration="3973000" />
-      <workItem from="1671657970701" duration="399000" />
+      <workItem from="1671657970701" duration="1028000" />
+      <workItem from="1671683942144" duration="6154000" />
+      <workItem from="1671747499185" duration="2425000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo for AoC">
       <created>1669752432770</created>
@@ -452,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671515643612</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Finish day 21">
+      <created>1671658533658</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1671658533658</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update main README.md sysem" />
     <MESSAGE value="Fix main README.md, createDay.sh" />
     <MESSAGE value="Finish Day 4" />
     <MESSAGE value="Update Day 4 code to use sets" />
@@ -498,7 +505,8 @@
     <MESSAGE value="Finish day 18" />
     <MESSAGE value="Finish day 19" />
     <MESSAGE value="Finish day 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish day 20" />
+    <MESSAGE value="Finish day 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish day 21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
