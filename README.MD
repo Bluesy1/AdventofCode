@@ -7,3 +7,4 @@ This repository contains my solutions for all [Advent of Code](https://adventofc
 - [2015](./2015/) - Kotlin
 - [2016](./2016/) - Kotlin
 - [2022](./2022/) - Kotlin
+- [2023](./2023/) - Rust
