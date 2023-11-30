@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 PROVIDED_DAY=$1
 TITLE=$2
@@ -9,17 +9,19 @@ else
     DAY="$PROVIDED_DAY"
 fi
 
-mkdir -p ./2022/main
-mkdir -p ./2022/inputs
+mkdir -p ./2023/day${DAY}
 
-touch ./2022/inputs/Day_"${DAY}".txt
+touch ./2023/day"${DAY}"/input.txt
 
-cp -R ./template ./2022/main/day_"$DAY"
+cp -r ./template/* ./2023/day"$DAY"
 
-sed -i "s/package template/package day_${DAY}_2022/; s/input.txt/Day_$DAY.txt/" "./2022/main/day_$DAY/Main.kt"
+sed -i "s/template/day${DAY}/" "./2023/day${DAY}/cargo.toml"
+sed -i "s/template/day${DAY}/" "./2023/day${DAY}/cargo.lock"
 
-printf "# Advent Of Code 2022 Day %s: %s\n\n## Part 1\nTBD\n\n---\n## Part 2\nTBD" "$DAY" "$TITLE" > ./2022/main/day_"$DAY"/README.md
+# sed -i "s/package template/package day_${DAY}_2023/; s/input.txt/Day_$DAY.txt/" "./2023/main/day_$DAY/Main.kt"
 
-printf "\n[**Day %s: %s**](main/day_%s/) - [AdventOfCode](https://adventofcode.com/2022/day/%s)\n" "$PROVIDED_DAY" "$TITLE" "$DAY" "$PROVIDED_DAY" >> ./2022/README.md
+printf "# Advent Of Code 2023 Day %s: %s\n\n## Part 1\nTBD\n\n---\n## Part 2\nTBD" "$DAY" "$TITLE" > ./2023/day"$DAY"/README.md
 
-curl --cookie "session=$AOC_COOKIE" https://adventofcode.com/2022/day/"$PROVIDED_DAY"/input > ./2022/inputs/Day_"${DAY}".txt
+printf "\n[**Day %s: %s**](day%s/) - [AdventOfCode](https://adventofcode.com/2023/day/%s)\n" "$PROVIDED_DAY" "$TITLE" "$DAY" "$PROVIDED_DAY" >> ./2023/README.md
+
+curl --cookie "session=$AOC_COOKIE" https://adventofcode.com/2023/day/"$PROVIDED_DAY"/input > ./2023/day"${DAY}"/input.txt
