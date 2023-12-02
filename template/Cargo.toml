@@ -6,3 +6,7 @@ edition = "2021"
 
 [lib]
 path = "src/main.rs"
+
+[dependencies]
+aho-corasick = "1.1.2"
+regex = "1.10.2"
