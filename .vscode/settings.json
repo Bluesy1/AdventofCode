@@ -1,2 +1,6 @@
 {
+    "rust-analyzer.linkedProjects": [
+        "./2023/day01/Cargo.toml",
+        "./2023/day02/Cargo.toml"
+    ]
 }
