@@ -15,5 +15,10 @@
         // "./2023/day13/Cargo.toml",
         // "./2023/day14/Cargo.toml",
         // "./2023/day15/Cargo.toml"
+    ],
+    "cSpell.words": [
+        "Conv",
+        "lrot",
+        "vflip"
     ]
 }
