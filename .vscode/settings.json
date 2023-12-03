@@ -1,6 +1,19 @@
 {
     "rust-analyzer.linkedProjects": [
         "./2023/day01/Cargo.toml",
-        "./2023/day02/Cargo.toml"
+        "./2023/day02/Cargo.toml",
+        "./2023/day03/Cargo.toml",
+        // "./2023/day04/Cargo.toml",
+        // "./2023/day05/Cargo.toml",
+        // "./2023/day06/Cargo.toml",
+        // "./2023/day07/Cargo.toml",
+        // "./2023/day08/Cargo.toml",
+        // "./2023/day09/Cargo.toml",
+        // "./2023/day10/Cargo.toml",
+        // "./2023/day11/Cargo.toml",
+        // "./2023/day12/Cargo.toml",
+        // "./2023/day13/Cargo.toml",
+        // "./2023/day14/Cargo.toml",
+        // "./2023/day15/Cargo.toml"
     ]
 }
