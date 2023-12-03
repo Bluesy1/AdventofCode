@@ -1,3 +1,5 @@
+mod grid;
+
 pub fn part1(input: &str) -> String {
     "".into()
 }
