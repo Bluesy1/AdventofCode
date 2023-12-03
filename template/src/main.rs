@@ -2,6 +2,7 @@ pub fn part1(input: &str) -> String {
     "".into()
 }
 
+#[allow(unused_variables)]
 pub fn part2(input: &str) -> String {
     "".into()
 }
