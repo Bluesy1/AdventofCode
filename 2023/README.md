@@ -6,3 +6,5 @@
 [**Day 3: Gear Ratios**](day03/) - [AdventOfCode](https://adventofcode.com/2023/day/3)
 
 [**Day 4: Scratchcards**](day04/) - [AdventOfCode](https://adventofcode.com/2023/day/4)
+
+[**Day 5: If You Give A Seed A Fertilizer**](day05/) - [AdventOfCode](https://adventofcode.com/2023/day/5)
