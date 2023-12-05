@@ -87,9 +87,6 @@ pub fn part2(input: &str) -> String {
                 }
                 gear_pos.iter().for_each(|pos| {
                     gears.entry(*pos).or_insert(vec![]).push(number.parse().unwrap());
-                    if lines[pos.0][pos.1] != '.' && lines[pos.0][pos.1].is_digit(10) {
-                        gears.entry((pos.0, pos.1)).or_insert(vec![]).push(number.parse().unwrap());
-                    }
                 });
             } else if !col.is_digit(10) {
                 on_number = false;

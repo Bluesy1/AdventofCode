@@ -14,7 +14,7 @@ mkdir -p ./${YEAR}/day${DAY}
 
 touch ./${YEAR}/day"${DAY}"/input.txt
 
-cp -r ./template/* ./${YEAR}/day"$DAY"
+cp -r ./template/* ./${YEAR}/day"$DAY" --exclude target
 
 sed -i "s/template/day${DAY}/" "./${YEAR}/day${DAY}/Cargo.toml"
 sed -i "s/template/day${DAY}/" "./${YEAR}/day${DAY}/Cargo.lock"

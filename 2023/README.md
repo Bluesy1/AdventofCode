@@ -5,4 +5,4 @@
 
 [**Day 3: Gear Ratios**](day03/) - [AdventOfCode](https://adventofcode.com/2023/day/3)
 
-[**Day 4: Scratchcards **](day04/) - [AdventOfCode](https://adventofcode.com/2023/day/4)
+[**Day 4: Scratchcards**](day04/) - [AdventOfCode](https://adventofcode.com/2023/day/4)
