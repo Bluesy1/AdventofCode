@@ -10,3 +10,5 @@
 [**Day 5: If You Give A Seed A Fertilizer**](day05/) - [AdventOfCode](https://adventofcode.com/2023/day/5)
 
 [**Day 6: Wait For It**](day06/) - [AdventOfCode](https://adventofcode.com/2023/day/6)
+
+[**Day 7: Camel Cards**](day07/) - [AdventOfCode](https://adventofcode.com/2023/day/7)
