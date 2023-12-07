@@ -1,0 +1,11 @@
+[package]
+name = "day07"
+version = "0.1.0"
+authors = ["Bluesy1 <68259537+Bluesy1@users.noreply.github.com>"]
+edition = "2021"
+
+[lib]
+path = "src/main.rs"
+
+[dependencies]
+itertools = "0.12.0"
