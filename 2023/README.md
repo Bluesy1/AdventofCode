@@ -12,3 +12,5 @@
 [**Day 6: Wait For It**](day06/) - [AdventOfCode](https://adventofcode.com/2023/day/6)
 
 [**Day 7: Camel Cards**](day07/) - [AdventOfCode](https://adventofcode.com/2023/day/7)
+
+[**Day 8: Haunted Wasteland**](day08/) - [AdventOfCode](https://adventofcode.com/2023/day/8)
