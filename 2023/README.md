@@ -14,3 +14,5 @@
 [**Day 7: Camel Cards**](day07/) - [AdventOfCode](https://adventofcode.com/2023/day/7)
 
 [**Day 8: Haunted Wasteland**](day08/) - [AdventOfCode](https://adventofcode.com/2023/day/8)
+
+[**Day 9: Mirage Maintenance**](day09/) - [AdventOfCode](https://adventofcode.com/2023/day/9)
