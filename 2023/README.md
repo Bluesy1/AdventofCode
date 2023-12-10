@@ -16,3 +16,5 @@
 [**Day 8: Haunted Wasteland**](day08/) - [AdventOfCode](https://adventofcode.com/2023/day/8)
 
 [**Day 9: Mirage Maintenance**](day09/) - [AdventOfCode](https://adventofcode.com/2023/day/9)
+
+[**Day 10: Pipe Maze**](day10/) - [AdventOfCode](https://adventofcode.com/2023/day/10)
