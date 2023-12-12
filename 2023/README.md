@@ -20,3 +20,5 @@
 [**Day 10: Pipe Maze**](day10/) - [AdventOfCode](https://adventofcode.com/2023/day/10)
 
 [**Day 11: Cosmic Expansion**](day11/) - [AdventOfCode](https://adventofcode.com/2023/day/11)
+
+[**Day 12: Hot Springs**](day12/) - [AdventOfCode](https://adventofcode.com/2023/day/12)
