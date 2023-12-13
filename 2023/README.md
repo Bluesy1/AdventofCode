@@ -22,3 +22,5 @@
 [**Day 11: Cosmic Expansion**](day11/) - [AdventOfCode](https://adventofcode.com/2023/day/11)
 
 [**Day 12: Hot Springs**](day12/) - [AdventOfCode](https://adventofcode.com/2023/day/12)
+
+[**Day 13: Point of Incidence**](day13/) - [AdventOfCode](https://adventofcode.com/2023/day/13)
