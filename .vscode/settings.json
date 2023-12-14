@@ -13,7 +13,7 @@
         "./2023/day11/Cargo.toml",
         "./2023/day12/Cargo.toml",
         "./2023/day13/Cargo.toml",
-        // "./2023/day14/Cargo.toml",
+        "./2023/day14/Cargo.toml",
         // "./2023/day15/Cargo.toml",
         // "./2023/day16/Cargo.toml",
         // "./2023/day17/Cargo.toml",
@@ -28,6 +28,7 @@
     ],
     "cSpell.words": [
         "Conv",
+        "Hasher",
         "Itertools",
         "lrot",
         "vflip"
