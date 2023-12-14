@@ -24,3 +24,5 @@
 [**Day 12: Hot Springs**](day12/) - [AdventOfCode](https://adventofcode.com/2023/day/12)
 
 [**Day 13: Point of Incidence**](day13/) - [AdventOfCode](https://adventofcode.com/2023/day/13)
+
+[**Day 14: Parabolic Reflector Dish**](day14/) - [AdventOfCode](https://adventofcode.com/2023/day/14)
