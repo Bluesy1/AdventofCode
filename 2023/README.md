@@ -26,3 +26,5 @@
 [**Day 13: Point of Incidence**](day13/) - [AdventOfCode](https://adventofcode.com/2023/day/13)
 
 [**Day 14: Parabolic Reflector Dish**](day14/) - [AdventOfCode](https://adventofcode.com/2023/day/14)
+
+[**Day 15: Lens Library**](day15/) - [AdventOfCode](https://adventofcode.com/2023/day/15)
