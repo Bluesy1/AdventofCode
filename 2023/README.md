@@ -30,3 +30,5 @@
 [**Day 15: Lens Library**](day15/) - [AdventOfCode](https://adventofcode.com/2023/day/15)
 
 [**Day 16: The Floor Will Be Lava**](day16/) - [AdventOfCode](https://adventofcode.com/2023/day/16)
+
+[**Day 17: Clumsy Crucible**](day17/) - [AdventOfCode](https://adventofcode.com/2023/day/17)
