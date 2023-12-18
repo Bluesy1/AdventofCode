@@ -1,0 +1,15 @@
+[package]
+name = "day18"
+version = "0.1.0"
+authors = ["Bluesy1 <68259537+Bluesy1@users.noreply.github.com>"]
+edition = "2021"
+
+[dependencies]
+hex_color = "3.0.0"
+
+# [lib]
+# path = "src/main.rs"
+
+# [dependencies]
+# aho-corasick = "1.1.2"
+# regex = "1.10.2"
