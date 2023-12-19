@@ -34,3 +34,5 @@
 [**Day 17: Clumsy Crucible**](day17/) - [AdventOfCode](https://adventofcode.com/2023/day/17)
 
 [**Day 18: Lavaduct Lagoon**](day18/) - [AdventOfCode](https://adventofcode.com/2023/day/18)
+
+[**Day 19: Aplenty**](day19/) - [AdventOfCode](https://adventofcode.com/2023/day/19)
