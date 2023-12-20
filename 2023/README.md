@@ -36,3 +36,5 @@
 [**Day 18: Lavaduct Lagoon**](day18/) - [AdventOfCode](https://adventofcode.com/2023/day/18)
 
 [**Day 19: Aplenty**](day19/) - [AdventOfCode](https://adventofcode.com/2023/day/19)
+
+[**Day 20: Pulse Propagation**](day20/) - [AdventOfCode](https://adventofcode.com/2023/day/20)
