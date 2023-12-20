@@ -26,3 +26,5 @@ hs_err_pid*
 **/target/
 **/bin/
 **/input.txt
+**/inputs
+git-filter-repo
