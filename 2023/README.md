@@ -38,3 +38,5 @@
 [**Day 19: Aplenty**](day19/) - [AdventOfCode](https://adventofcode.com/2023/day/19)
 
 [**Day 20: Pulse Propagation**](day20/) - [AdventOfCode](https://adventofcode.com/2023/day/20)
+
+[**Day 21: Step Counter**](day21/) - [AdventOfCode](https://adventofcode.com/2023/day/21)
