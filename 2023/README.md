@@ -40,3 +40,5 @@
 [**Day 20: Pulse Propagation**](day20/) - [AdventOfCode](https://adventofcode.com/2023/day/20)
 
 [**Day 21: Step Counter**](day21/) - [AdventOfCode](https://adventofcode.com/2023/day/21)
+
+[**Day 22: Sand Slabs**](day22/) - [AdventOfCode](https://adventofcode.com/2023/day/22)
