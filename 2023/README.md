@@ -42,3 +42,5 @@
 [**Day 21: Step Counter**](day21/) - [AdventOfCode](https://adventofcode.com/2023/day/21)
 
 [**Day 22: Sand Slabs**](day22/) - [AdventOfCode](https://adventofcode.com/2023/day/22)
+
+[**Day 23: A Long Walk**](day23/) - [AdventOfCode](https://adventofcode.com/2023/day/23)
