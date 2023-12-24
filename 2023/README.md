@@ -44,3 +44,5 @@
 [**Day 22: Sand Slabs**](day22/) - [AdventOfCode](https://adventofcode.com/2023/day/22)
 
 [**Day 23: A Long Walk**](day23/) - [AdventOfCode](https://adventofcode.com/2023/day/23)
+
+[**Day 24: Never Tell Me The Odds**](day24/) - [AdventOfCode](https://adventofcode.com/2023/day/24)
