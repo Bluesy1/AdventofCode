@@ -24,7 +24,7 @@
         "./2023/day22/Cargo.toml",
         "./2023/day23/Cargo.toml",
         "./2023/day24/Cargo.toml",
-        // "./2023/day25/Cargo.toml"
+        "./2023/day25/Cargo.toml"
     ],
     "cSpell.words": [
         "Conv",

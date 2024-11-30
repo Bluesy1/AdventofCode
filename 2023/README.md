@@ -46,3 +46,5 @@
 [**Day 23: A Long Walk**](day23/) - [AdventOfCode](https://adventofcode.com/2023/day/23)
 
 [**Day 24: Never Tell Me The Odds**](day24/) - [AdventOfCode](https://adventofcode.com/2023/day/24)
+
+[**Day 25: Snowverload**](day25/) - [AdventOfCode](https://adventofcode.com/2023/day/25)
