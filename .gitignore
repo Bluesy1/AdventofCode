@@ -28,3 +28,6 @@ hs_err_pid*
 **/input.txt
 **/inputs
 git-filter-repo
+.python-version
+.session_cookie
+.email

@@ -27,6 +27,7 @@
         "./2023/day25/Cargo.toml"
     ],
     "cSpell.words": [
+        "adventofcode",
         "Conv",
         "Hasher",
         "indeg",
