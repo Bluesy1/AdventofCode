@@ -8,7 +8,7 @@ This repository contains my solutions for all [Advent of Code](https://adventofc
 - [2016](./prev/2016/) - Kotlin
 - [2022](./prev/2022/) - Kotlin
 - [2023](./prev/2023/) - Rust
-- [2024](./solutions/2024/) - Rust
+- [2024](./solutions/2024/) - Python
 
 
 ## Automated Input Download
