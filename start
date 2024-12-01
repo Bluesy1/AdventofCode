@@ -74,7 +74,7 @@ if __name__ == "__main__":
         email = Path(__file__).parent.joinpath(".email").read_text()
 
         inp = requests.get(
-            f"https://adventofcode.com/{ARGS.year}/day/{day:02}/input",
+            f"https://adventofcode.com/{ARGS.year}/day/{day}/input",
             cookies={"session": cookie},
             headers={"User-Agent": f"Python3; github.com/bluesy1/adventofcode; {email}", "From": email}
         )

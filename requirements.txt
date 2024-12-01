@@ -1,3 +1,7 @@
 pyright
 ruff
 requests
+numpy
+scipy
+pyahocorasick
+networkx

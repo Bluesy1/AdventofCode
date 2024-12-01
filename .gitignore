@@ -31,3 +31,5 @@ git-filter-repo
 .python-version
 .session_cookie
 .email
+
+**/*.pyc
