@@ -33,6 +33,8 @@
         "indeg",
         "Itertools",
         "lrot",
+        "maxcol",
+        "maxrow",
         "nums",
         "numsp",
         "vflip"
