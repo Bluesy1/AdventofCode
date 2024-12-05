@@ -28,6 +28,8 @@ ignore = [
   "PLR0912", # too many branches
   "PLR0913", # too many arguments
   'Q000',    # single quotes; handled by formatter
+  "F403",    # don't enforce from module import *
+  "F405",    # don't enforce unknown or from module import * modules
 ]
 
 unfixable = [
