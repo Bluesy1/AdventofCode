@@ -13,41 +13,40 @@ class Solution(TextSolution):
         orders, pages = self.input.split("\n\n")
         must_after = defaultdict(set)
         for ordering in orders.splitlines():
-            before, after = nums(ordering)
+            before, after = ordering.split("|")
             must_after[after].add(before)
         part1 = part2 = 0
         for group_ in pages.splitlines():
-            group = nums(group_)
+            group = group_.split(",")
             group_set = set(group)
             valid = True
+            pages = set()
             for i, page in enumerate(group):
+                pages.add(page)
                 for before in must_after[page]:
-                    if before not in group[:i] and before in group_set:
+                    if before not in pages and before in group_set:
                         valid = False
                         break
                 if valid is False:
                     break
             if valid:
                 # add middle number to answer
-                part1 += group[len(group) // 2]
+                part1 += int(group[len(group) // 2])
             else:
+                group = deque(group)
                 while not valid:
                     group.remove(before)
-                    need_before = must_after[before] & group_set
-                    if need_before:
-                        group.insert(min(group.index(need_before.pop()), i), before)
-                    else:
-                        group.insert(0, before)
+                    group.insert(i, before)
                     valid = True
+                    pages = set()
                     for i, page in enumerate(group):
+                        pages.add(page)
                         for before in must_after[page]:
-                            if before not in group[:i] and before in group_set:
+                            if before not in pages and before in group_set:
                                 valid = False
                                 break
                         if valid is False:
                             break
-                self.debug(group)
-                part2 += group[len(group) // 2]
-                        
+                part2 += int(group[len(group) // 2])
 
         return part1, part2
