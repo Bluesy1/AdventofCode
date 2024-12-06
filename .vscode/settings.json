@@ -38,5 +38,6 @@
         "nums",
         "numsp",
         "vflip"
-    ]
+    ],
+    "python.terminal.activateEnvironment": false
 }

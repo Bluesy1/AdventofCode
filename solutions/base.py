@@ -12,7 +12,8 @@ from enum import Enum, auto
 from functools import wraps
 from pathlib import Path
 from pprint import pprint
-from typing import (
+
+from typing_extensions import (
     Callable,
     Generic,
     TypeVar,

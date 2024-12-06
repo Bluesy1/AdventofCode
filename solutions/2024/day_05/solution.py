@@ -17,23 +17,22 @@ class Solution(TextSolution):
             must_after[after].add(before)
         part1 = part2 = 0
         for group_ in pages.splitlines():
-            group = group_.split(",")
+            group = deque(group_.split(","))
             group_set = set(group)
             valid = True
             pages = set()
             for i, page in enumerate(group):
                 pages.add(page)
-                for before in must_after[page]:
-                    if before not in pages and before in group_set:
+                for before in must_after[page] & group_set:
+                    if before not in pages:
                         valid = False
                         break
-                if valid is False:
-                    break
+                else:
+                    continue
+                break
             if valid:
-                # add middle number to answer
                 part1 += int(group[len(group) // 2])
             else:
-                group = deque(group)
                 while not valid:
                     group.remove(before)
                     group.insert(i, before)
@@ -41,12 +40,13 @@ class Solution(TextSolution):
                     pages = set()
                     for i, page in enumerate(group):
                         pages.add(page)
-                        for before in must_after[page]:
-                            if before not in pages and before in group_set:
+                        for before in must_after[page] & group_set:
+                            if before not in pages:
                                 valid = False
                                 break
-                        if valid is False:
-                            break
+                        else:
+                            continue
+                        break
                 part2 += int(group[len(group) // 2])
 
         return part1, part2
