@@ -2,6 +2,6 @@ pyright
 ruff
 requests
 numpy
-scipy
-pyahocorasick
+# scipy
+# pyahocorasick
 networkx
