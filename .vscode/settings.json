@@ -39,5 +39,8 @@
         "numsp",
         "vflip"
     ],
-    "python.terminal.activateEnvironment": false
+    "python.terminal.activateEnvironment": false,
+    "cSpell.enabledFileTypes": {
+        "plaintext": false
+    }
 }
