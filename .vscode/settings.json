@@ -37,6 +37,7 @@
         "maxrow",
         "nums",
         "numsp",
+        "prevs",
         "vflip"
     ],
     "python.terminal.activateEnvironment": false,
