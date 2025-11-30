@@ -1,6 +1,6 @@
 pyright
 ruff
-requests
+niquests
 numpy
 # scipy
 # pyahocorasick

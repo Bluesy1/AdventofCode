@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 
 import argparse
 import cProfile
@@ -11,7 +11,7 @@ from typing import Type, cast
 from misc.date_utils import current_puzzle_year, next_day
 from solutions.base import AoCException, BaseSolution
 
-__version__ = "4.0.3"
+__version__ = "5.0.3"
 
 PARSER = argparse.ArgumentParser(
     description="Run a specific day of Advent of Code", prog="advent"
@@ -22,7 +22,7 @@ PARSER.add_argument(
     nargs="?",
     type=int,  # so that padding works correctly in `main`
     help=(
-        "Which puzzle day to run, between [1,25]. Defaults to the latest day in the specified year (defaulting to this year)."
+        "Which puzzle day to run, between [1,12]. For years before 2025, the valid range is [1,25]. Defaults to the latest day in the specified year (defaulting to this year)."
     ),
 )
 PARSER.add_argument("--year", default=current_puzzle_year(), help="which year to use f")
@@ -58,6 +58,9 @@ def main(
         if day is None:
             year_dir = Path(f"solutions/{year}")
             day = next_day(year_dir)
+        elif int(year) >= 2025:
+            if not 1 <= day <= 12:
+                PARSER.error(f"day {day} is not in range [1,12]")
         else:
             if not 1 <= day <= 25:
                 PARSER.error(f"day {day} is not in range [1,25]")

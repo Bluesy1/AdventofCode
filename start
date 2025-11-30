@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 
 import argparse
 from pathlib import Path
 
-import requests
-import requests.cookies
+import niquests
 
 from misc.date_utils import current_puzzle_year, next_day
 
@@ -22,6 +21,8 @@ PARSER.add_argument(
 )
 PARSER.add_argument("--year", default=current_puzzle_year(), help="Puzzle year")
 
+BASE_PATH = Path(__file__).parent
+
 if __name__ == "__main__":
     ARGS = PARSER.parse_args()
 
@@ -33,8 +34,11 @@ if __name__ == "__main__":
     else:
         day = ARGS.day
 
-    if not 1 <= day <= 25:
-        PARSER.error(f"day {day} is not in range [1,25]")
+    MAX_DAY = 12 if int(ARGS.year) >= 2025 else 25
+    if not 1 <= day <= MAX_DAY:
+        PARSER.error(f"day {day} is not in range [1,{MAX_DAY}]")
+
+    PARSER.error(f"Year {ARGS.year} day {day} setup")
 
     day_dir = Path(year_dir, f"day_{day:02}")
 
@@ -70,16 +74,18 @@ if __name__ == "__main__":
         solution_path.write_text(replaced_template)
         print("Created a new Solution file at", solution_path)
 
-        cookie = Path(__file__).parent.joinpath(".session_cookie").read_text()
-        email = Path(__file__).parent.joinpath(".email").read_text()
+        cookie = BASE_PATH.joinpath(".session_cookie").read_text()
+        email = BASE_PATH.joinpath(".email").read_text()
 
-        inp = requests.get(
+        inp = niquests.get(
             f"https://adventofcode.com/{ARGS.year}/day/{day}/input",
             cookies={"session": cookie},
             headers={"User-Agent": f"Python3; github.com/bluesy1/adventofcode; {email}", "From": email}
         )
 
         inp.raise_for_status()
+
+        assert inp.text is not None and inp.text.strip()
 
         Path(day_dir, "input.txt").write_text(inp.text)
 
