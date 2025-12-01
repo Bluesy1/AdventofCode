@@ -38,7 +38,6 @@ if __name__ == "__main__":
     if not 1 <= day <= MAX_DAY:
         PARSER.error(f"day {day} is not in range [1,{MAX_DAY}]")
 
-    PARSER.error(f"Year {ARGS.year} day {day} setup")
 
     day_dir = Path(year_dir, f"day_{day:02}")
 
