@@ -74,8 +74,8 @@ if __name__ == "__main__":
         solution_path.write_text(replaced_template)
         print("Created a new Solution file at", solution_path)
 
-        cookie = BASE_PATH.joinpath(".session_cookie").read_text()
-        email = BASE_PATH.joinpath(".email").read_text()
+        cookie = Path(BASE_PATH, ".session_cookie").read_text()
+        email = Path(BASE_PATH, ".email").read_text()
 
         inp = niquests.get(
             f"https://adventofcode.com/{ARGS.year}/day/{day}/input",
