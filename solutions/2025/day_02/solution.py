@@ -28,11 +28,9 @@ class Solution(StrSplitSolution):
                             break
                     else:
                         part2 += product
-                        self.debug(product)
                         break
                 if l % 2 == 1:
                     continue
                 if product_str[:half] == product_str[half:]:
                     part1 += product
-                    self.debug(product)
         return part1, part2
