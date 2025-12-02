@@ -1,3 +1,5 @@
+set unstable
+
 _default:
   just --list
 
@@ -19,5 +21,10 @@ _require-venv:
   pyright
 
 # run every solution for a given year
+[script("bash")]
 @validate year:
-	for i in $(seq 1 25); do ./advent $i --slow --year {{year}}; echo; done;
+  if [ "{{year}}" -ge 2025 ]; then \ 
+    for i in $(seq 1 12); do ./advent $i --year {{year}}; echo; done; \
+  else \
+    for i in $(seq 1 25); do ./advent $i --slow --year {{year}}; echo; done; \
+  fi
