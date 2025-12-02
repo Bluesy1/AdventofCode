@@ -16,22 +16,21 @@ class Solution(StrSplitSolution):
         for line in input_data:
             direction = line[0]
             amount = int(line[1:])
-            self.debug(f"{dial=} {line=}")
             previous = dial
             if direction == "L":
                 dial -= amount
             else:
                 dial += amount
             
-            if dial == 0:
-                part1 += 1
 
             if previous < dial:
                 part2 += abs(previous//100 - dial//100)
             elif previous > dial:
                 part2 += abs((-previous)//100 - (-dial)//100)
 
-            
-            self.debug(trailing_newline=True)
+            dial %= 100
+
+            if dial == 0:
+                part1 += 1
 
         return part1, part2

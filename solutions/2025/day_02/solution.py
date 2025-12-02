@@ -19,6 +19,7 @@ class Solution(StrSplitSolution):
             for product in range(first, last+1):
                 product_str = str(product)
                 l = len(product_str)
+                half = l // 2
                 for i in range(1, half+1):
                     if l % i != 0:
                         continue
@@ -27,7 +28,6 @@ class Solution(StrSplitSolution):
                         break
                 if l % 2 == 1:
                     continue
-                half = l // 2
                 if product_str[:half] == product_str[half:]:
                     part1 += product
         return part1, part2
