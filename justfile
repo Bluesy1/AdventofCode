@@ -24,7 +24,7 @@ _require-venv:
 [script("bash")]
 @validate year:
   if [ "{{year}}" -ge 2025 ]; then \ 
-    for i in $(seq 1 12); do ./advent $i --year {{year}}; echo; done; \
+    for i in $(seq 1 12); do ./advent $i --slow --year {{year}}; echo; done; \
   else \
     for i in $(seq 1 25); do ./advent $i --slow --year {{year}}; echo; done; \
   fi
