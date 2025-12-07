@@ -14,13 +14,7 @@ from pathlib import Path
 from pprint import pprint
 from typing import Any
 
-from typing_extensions import (
-    Callable,
-    TypeVar,
-    cast,
-    final,
-    overload,
-)
+from typing_extensions import Callable, TypeVar, final, overload
 
 
 class AoCException(Exception):
@@ -51,10 +45,9 @@ def print_answer(i: int, ans: ResultType):
 
 
 type InputType = str | int | list[int] | list[str] | list[list[int]]
-# I = TypeVar("I", bound=InputType)
 
 
-class BaseSolution[I: InputType]():
+class BaseSolution[I: InputType]:
     separator = "\n"
 
     # Solution Subclasses define these
@@ -67,7 +60,7 @@ class BaseSolution[I: InputType]():
         self.is_debugging = is_debugging
         self.use_test_data = use_test_data
 
-        self.input = cast(I, self.read_input())
+        self.input = self.read_input()
 
     @property
     def year(self):
@@ -105,7 +98,7 @@ class BaseSolution[I: InputType]():
             raise NotImplementedError
 
     @final
-    def read_input(self) -> InputType:
+    def read_input(self) -> I:
         """
         handles locating, reading, and parsing input files
         """
@@ -132,10 +125,10 @@ class BaseSolution[I: InputType]():
             )
 
         if self.input_type is InputTypes.TEXT:
-            return data
+            return data  # pyright: ignore[reportReturnType]
 
         if self.input_type is InputTypes.INTEGER:
-            return int(data)
+            return int(data)  # pyright: ignore[reportReturnType]
 
         if (
             self.input_type is InputTypes.STRSPLIT
@@ -145,9 +138,9 @@ class BaseSolution[I: InputType]():
             parts = data.split(self.separator)
 
             if self.input_type == InputTypes.INTSPLIT:
-                return [int(i) for i in parts]
+                return [int(i) for i in parts]  # pyright: ignore[reportReturnType]
 
-            return parts
+            return parts  # pyright: ignore[reportReturnType]
 
         raise ValueError(f"Unrecognized input_type: {self.input_type}")
 
