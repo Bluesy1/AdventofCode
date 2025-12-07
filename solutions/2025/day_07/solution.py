@@ -32,13 +32,10 @@ class Solution(StrSplitSolution):
 
     @functools.cache
     def rec_solve(self, row: int, col: int) -> int:
-        is_split = self.input[row][col] == "^"
         if row == len(self.input)-1:
-            if is_split:
-                return 2
             return 1
 
-        if is_split:
+        if self.input[row][col] == "^":
             paths = 0
             if col > 1:
                 paths += self.rec_solve(row+1, col-1)
