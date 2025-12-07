@@ -31,6 +31,7 @@
         "Conv",
         "Hasher",
         "indeg",
+        "INTSPLIT",
         "Itertools",
         "lrot",
         "maxcol",
@@ -39,6 +40,8 @@
         "nums",
         "numsp",
         "prevs",
+        "pylint",
+        "STRSPLIT",
         "vflip"
     ],
     "python.terminal.activateEnvironment": false,

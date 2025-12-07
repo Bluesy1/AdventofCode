@@ -3,6 +3,7 @@
 from ...base import StrSplitSolution, answer
 from ...utils.tools import *
 
+
 def score(nums: str, k: int) -> int:
     n = len(nums)
     start = 0

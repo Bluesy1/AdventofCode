@@ -12,9 +12,8 @@ class Solution(StrSplitSolution):
     @answer((24043483400, 38262920235))
     def solve(self) -> tuple[int, int]:
         
-        input = self.input
         part1 = part2 = 0
-        for product_range in input:
+        for product_range in self.input:
             first, last = nums(product_range.replace("-", " "))
             for product in range(first, last+1):
                 product_str = str(product)

@@ -32,7 +32,7 @@ class Solution(TextSolution):
 
         for item in nums(ingredients):
             part1 += any(
-                min <= item <= max for min, max in merged
+                lower <= item <= upper for lower, upper in merged
             )
 
         part2 = 0

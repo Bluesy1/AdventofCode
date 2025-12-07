@@ -1,10 +1,11 @@
 # puzzle prompt: https://adventofcode.com/2025/day/6
 
+import functools
+from operator import add, mul
+
 from ...base import StrSplitSolution, answer
 from ...utils.tools import *
 
-import functools
-from operator import mul, add
 
 class Solution(StrSplitSolution):
     _year = 2025
