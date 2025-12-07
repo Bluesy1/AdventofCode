@@ -6,12 +6,34 @@ import sys
 from importlib import import_module
 from pathlib import Path
 from time import perf_counter_ns
-from typing import Type, cast
+from typing import cast
 
 from misc.date_utils import current_puzzle_year, next_day
 from solutions.base import AoCException, BaseSolution
 
 __version__ = "5.0.3"
+
+def nanoseconds_str(ns: int) -> str:
+    """
+    Format a number of nanoseconds into a human-readable string.
+
+    Parameters
+    ----------
+    ns : int
+        Number of nanoseconds.
+
+    Returns
+    -------
+    str
+        Human-readable string representation of nanoseconds.
+    """
+    if ns < 1e3:
+        return f"{ns} ns"
+    if ns < 1e6:
+        return f"{ns / 1e3:.3f} μs"
+    if ns < 1e9:
+        return f"{ns / 1e6:.3f} ms"
+    return f"{ns / 1e9:.3f} s"
 
 PARSER = argparse.ArgumentParser(
     description="Run a specific day of Advent of Code", prog="advent"
@@ -61,12 +83,11 @@ def main(
         elif int(year) >= 2025:
             if not 1 <= day <= 12:
                 PARSER.error(f"day {day} is not in range [1,12]")
-        else:
-            if not 1 <= day <= 25:
-                PARSER.error(f"day {day} is not in range [1,25]")
+        elif not 1 <= day <= 25:
+            PARSER.error(f"day {day} is not in range [1,25]")
 
         solution_class = cast(
-            Type[BaseSolution],
+            type[BaseSolution],
             import_module(f"solutions.{year}.day_{day:02}.solution").Solution,
         )
     except ModuleNotFoundError:
@@ -89,7 +110,7 @@ def main(
 
     if time_it:
         print("== Performance")
-        print(f"=== Both parts ran in {round((stop - start) / 1_000_000_000, 3)}s\n")
+        print(f"=== Both parts ran in {nanoseconds_str(stop - start)}\n")
 
 
 if __name__ == "__main__":
