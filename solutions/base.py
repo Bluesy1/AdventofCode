@@ -12,14 +12,11 @@ from enum import Enum, auto
 from functools import wraps
 from pathlib import Path
 from pprint import pprint
+from typing import Any
 
 from typing_extensions import (
     Callable,
-    Generic,
     TypeVar,
-    TypeVarTuple,
-    Union,
-    Unpack,
     cast,
     final,
     overload,
@@ -44,7 +41,7 @@ class InputTypes(Enum):
 
 
 # almost always int, but occasionally str; None is fine to disable a part
-ResultType = Union[int, str, None]
+type ResultType = int | str | None
 
 
 def print_answer(i: int, ans: ResultType):
@@ -53,11 +50,11 @@ def print_answer(i: int, ans: ResultType):
         print(f"=== {ans}")
 
 
-InputType = Union[str, int, list[int], list[str], list[list[int]]]
-I = TypeVar("I", bound=InputType)
+type InputType = str | int | list[int] | list[str] | list[list[int]]
+# I = TypeVar("I", bound=InputType)
 
 
-class BaseSolution(Generic[I]):
+class BaseSolution[I: InputType]():
     separator = "\n"
 
     # Solution Subclasses define these
@@ -218,30 +215,24 @@ class IntSplitSolution(BaseSolution[list[int]]):
     input_type = InputTypes.INTSPLIT
 
 
-# https://stackoverflow.com/a/65681955/1825390
-SolutionClassType = TypeVar("SolutionClassType", bound=BaseSolution)
+R1 = TypeVar("R1", bound=ResultType)
+R2 = TypeVar("R2", bound=ResultType)
+S = TypeVar("S", bound=BaseSolution[Any])
 
 
 @overload
-def slow(
-    func: Callable[[SolutionClassType], tuple[ResultType, ResultType]],
-) -> Callable[[SolutionClassType], tuple[ResultType, ResultType]]: ...
-
+def slow(func: Callable[[S], R1]) -> Callable[[S], R1 | None]: ...
 
 @overload
-def slow(
-    func: Callable[[SolutionClassType], ResultType],
-) -> Callable[[SolutionClassType], ResultType]: ...
-
-
-def slow(func):  # type: ignore
+def slow(func: Callable[[S], tuple[R1, R2]], ) -> Callable[[S], tuple[R1 | None, R2 | None]]: ...
+def slow(func: Callable[[S], R1 | tuple[R1, R2]], ) -> Callable[[S], R1 | None | tuple[R1 | None, R2 | None]]:
     """
     A decorator for solution methods that blocks their execution (and returns without error)
     if the the function is manually marked as "slow". Helpful if running many solutions at once,
     so one doesn't gum up the whole thing.
     """
 
-    def wrapper(self: BaseSolution):
+    def wrapper(self: S) -> R1 | None | tuple[R1 | None, R2 | None]:
         if self.slow or self.use_test_data:
             return func(self)
 
@@ -254,30 +245,10 @@ def slow(func):  # type: ignore
     return wrapper
 
 
-# these types ensure the return type of the function matches `@answer`
-# see: https://github.com/microsoft/pyright/discussions/4317#discussioncomment-4386187
-R = TypeVar("R")  # return type generic
-Ts = TypeVarTuple("Ts")  # tuple items generic
+E = TypeVar("E", ResultType, tuple[ResultType, ResultType])
 
 
-@overload
-def answer(  # type: ignore
-    expected: tuple[Unpack[Ts]],
-) -> Callable[
-    [Callable[[SolutionClassType], tuple[Unpack[Ts]]]],
-    Callable[[SolutionClassType], tuple[Unpack[Ts]]],
-]: ...
-
-
-@overload
-def answer(
-    expected: R,
-) -> Callable[[Callable[[SolutionClassType], R]], Callable[[SolutionClassType], R]]: ...
-
-
-def answer(
-    expected: R,
-) -> Callable[[Callable[[SolutionClassType], R]], Callable[[SolutionClassType], R]]:
+def answer(expected: E) -> Callable[[Callable[[S], E]], Callable[[S], E]]:
     """
     Decorator to assert the result of the function is a certain thing.
     This is specifically designed to be used on instance methods of BaseSolution.
@@ -294,10 +265,10 @@ def answer(
     ```
     """
 
-    def deco(func: Callable[[SolutionClassType], R]):
+    def deco(func: Callable[[S], E]) -> Callable[[S], E]:   
         @wraps(func)
         # uses `self` because that's what's passed to the original solution function
-        def wrapper(self: SolutionClassType):
+        def wrapper(self: S) -> E:
             result = func(self)
             # only assert the answer for non-test data
             if not self.use_test_data and result is not None and result != expected:
