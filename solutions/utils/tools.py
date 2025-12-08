@@ -1,8 +1,9 @@
 import itertools
 import re
 from collections import Counter, defaultdict, deque
+from functools import cache
 
-__all__ = ("itertools", "re", "Counter", "defaultdict", "deque", "nums", "numsp", "sign")
+__all__ = ("itertools", "re", "Counter", "defaultdict", "deque", "nums", "numsp", "sign", "cache")
 
 def nums(s):
     m = re.findall(r"-?\d+", s)
