@@ -3,7 +3,11 @@ import re
 from collections import Counter, defaultdict, deque
 from functools import cache
 
-__all__ = ("itertools", "re", "Counter", "defaultdict", "deque", "nums", "numsp", "sign", "cache")
+__all__ = ("itertools", "re", "Counter", "defaultdict", "deque", "nums", "numsp", "sign", "cache", "Point2D", "Point3D", "Point")
+
+type Point2D = tuple[int, int]
+type Point3D = tuple[int, int, int]
+type Point = Point2D | Point3D | tuple[int, ...]
 
 def nums(s):
     m = re.findall(r"-?\d+", s)
