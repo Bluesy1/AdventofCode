@@ -33,6 +33,7 @@
         "indeg",
         "INTSPLIT",
         "Itertools",
+        "joltages",
         "lrot",
         "maxcol",
         "maxrow",

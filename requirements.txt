@@ -2,6 +2,8 @@ pyright
 ruff
 niquests
 numpy
+shapely
 # scipy
 # pyahocorasick
 networkx
+z3-solver
