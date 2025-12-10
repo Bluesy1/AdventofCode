@@ -34,6 +34,7 @@
         "INTSPLIT",
         "Itertools",
         "joltages",
+        "linprog",
         "lrot",
         "maxcol",
         "maxrow",

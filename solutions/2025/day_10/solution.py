@@ -1,5 +1,7 @@
 # puzzle prompt: https://adventofcode.com/2025/day/10
-import z3
+
+import numpy as np
+from scipy.optimize import linprog 
 
 from ...base import StrSplitSolution, answer
 from ...utils.tools import *
@@ -44,20 +46,14 @@ class Solution(StrSplitSolution):
 
             # *** Part 2 ***
 
-            s = z3.Optimize()
             num_buttons = len(buttons)
-            presses = [z3.Int(f"press_{i}") for i in range(num_buttons)]
-            for i in range(num_buttons):
-                s.add(presses[i] >= 0)
-            for i in range(len(joltages)):
-                s.add(
-                    sum(presses[j] for j, button in enumerate(buttons) if i in button)
-                    == joltages[i]
-                )
-            s.minimize(sum(presses))
-            assert s.check() == z3.sat
-            model = s.model()
-            total_presses = sum(model[b].as_long() for b in presses)  # pyright: ignore[reportOptionalMemberAccess, reportAttributeAccessIssue]
-            part2 += total_presses
+
+            A = [
+                    [1 if i in button else 0 for button in buttons]
+                    for i in range(len(joltages))
+                ]
+            r = linprog(np.ones(num_buttons), A_eq=A, b_eq=joltages, integrality=1)
+            assert r.status == 0
+            part2 += int(sum(r.x))
 
         return part1, part2
